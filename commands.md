@@ -12,7 +12,7 @@
 
 ### Main commands
 
-```tex
+```txt
 ESC                       Enable Command Mode(ECM)
 hjkl                      Movement (h:left,j:down,k:up,l:right)
 i                         Enable Edit Mode(EEM)
@@ -50,28 +50,28 @@ CTR+y, CTR+e              go up/down without changing cursor position
 
 ### Highlits
 
-```tex
+```txt
 :syntax on                enable highlit
 :syntax off               diseable highlit (default)
 ```
 
 ### Wrap order
 
-```tex
+```txt
 :set wrap                 Enable word wrap (default)
 :set nowrap               Lock word wrap
 ```
 
 ### Printing
 
-```tex
+```txt
 :ha[rdcopy]                   print doc
 :set printoptions=duplex:off  disable two-side's print
 ```
 
 ### Expanding
 
-```tex
+```txt
 == Expanding ==
 zc                        Hide block
 zo                        Show block
@@ -89,7 +89,7 @@ zf                        см :set foldmethod=manual
 
 ### Markers
 
-```tex
+```txt
 ma                        set local marker named "a"
 mB                        set global marker named "B"
 `c                        goto local marker "c"
@@ -99,14 +99,14 @@ mB                        set global marker named "B"
 
 ### Sessions
 
-```tex
+```txt
 mksession file.session    save current session
 source file.session       recover prebious saved session
 ```
 
 ### Aliases
 
-```tex
+```txt
 qa                        Create Aliases named a
 q                         In Aliases Mode: exit
 @a                        complete alias "a"
@@ -115,7 +115,7 @@ q                         In Aliases Mode: exit
 
 ### Selection
 
-```tex
+```txt
 v + hjkl                  select all text
 SHIFT + v                 select line
 CTR + v                   select rectangle
@@ -128,7 +128,7 @@ gU                        change to upper case
 
 ### Local searching
 
-```tex
+```txt
 /EXP                     searching an EXP in file
 \cEXP                    searching an exprassion in file (register ignore)
 n                        next match
@@ -138,7 +138,7 @@ N                        prev match
 
 ### Global searching
 
-```tex
+```txt
 :vimgrep /RevExp/ **/*.c regular expression searching
 :copen                   show all matched parts
 :close                   hide all matched parts
@@ -148,14 +148,14 @@ N                        prev match
 
 ### Numeration
 
-```tex
+```txt
 :set number              enable line numeration
 :set nonumber            diseable line numeration
 ```
 
 ### Encoding
 
-```tex
+```txt
 e ++enc=<utf-8>         Edit file in  <"utf-8"> encoding
 w ++enc=<"utf-8">         Save file in<"utf-8"> encoding
 set fileencodings=utf-8,koi8-r  Encoding listС
@@ -163,7 +163,7 @@ set fileencodings=utf-8,koi8-r  Encoding listС
 
 ### More
 
-```tex
+```txt
 :set [no]wildmenu          autocomplete word 
 :set list                  Show tabs and spaces
 q:                         Command history
